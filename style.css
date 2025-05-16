@@ -89,6 +89,10 @@
     cursor: pointer;
 }
 
+.login:hover{
+    background-color: #23539c;
+}
+
 .border{
     margin-bottom: 25px;
     display: flex;
@@ -124,6 +128,10 @@
     background-color: #252525;
     width: 140px;
     height: 45px;
+}
+
+.alternatif button:hover{
+    background-color: #202020;
 }
 
 .alt_img{
