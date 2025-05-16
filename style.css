@@ -19,19 +19,13 @@
     align-items: center;
     width: 500px;
     height: 550px;
-    padding: 20px;
+    /* padding: 20px; */
     background-color: #181818;
     border-radius: 10px;
 }
 
-.card h1{
-    font-weight: 300;
-    padding: 15px 0 15px 0;
-    font-size: 28px;
-}
-
 .logo{
-    margin: 10px;
+    margin-top: 25px;
     padding: 7px;
     border-radius: 10px;
     border: 2px solid #2E3031;
@@ -40,6 +34,12 @@
 
 .logo img{
     width: 50px;
+}
+
+.card h1{
+    font-weight: 300;
+    padding: 25px 0 15px 0;
+    font-size: 28px;
 }
 
 .register{
@@ -56,21 +56,69 @@
 
 .card input {
     padding: 12px;
-    width: 450px;
+    width: 425px;
     border: 1px solid #2E3031;
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: #111111;
     font-size: 16px;
     font-weight: 530;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .login{
     color: #FCFCFC;
     padding: 12px;
-    width: 475px;
+    width: 450px;
     border: 1px solid #2E3031;
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: #3073D5;
     font-size: 16px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.border{
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.border p{
+    font-size: 13px;
+    font-weight: 600;
+    color: #838383;
+}
+
+.line1{
+    width: 205px;
+    height: 1px;
+    background-color: #838383;
+    margin:  8px 8px 0 0;
+}
+
+.line2{
+    width: 205px;
+    height: 1px;
+    background-color: #838383;
+    margin:  8px 0 0 8px;
+}
+
+.alternatif{
+    margin-bottom: 25px;
+}
+
+.alternatif button{
+    border: 1px;
+    border-radius: 10px;
+    background-color: #252525;
+    width: 140px;
+    height: 45px;
+}
+
+.alt_img{
+    margin: 0 4px 0 4px;
+    cursor: pointer;
+}
+
+.alt_img img{
+    width: 20px;
 }
